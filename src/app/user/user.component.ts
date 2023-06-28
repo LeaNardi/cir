@@ -39,7 +39,7 @@ export class UserComponent {
 
     if (this.service.ingresar(this.user)) {
       this.problem = false;
-      this.router.navigate(['navigation']);
+      this.router.navigate(['navegacion']);
     } else{
       this.problem = true;
     }
